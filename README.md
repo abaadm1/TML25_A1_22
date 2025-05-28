@@ -49,4 +49,6 @@ o	Evaluation is done using ROC AUC and TPR@FPR=0.05, a strong privacy metric.
 
 To get an improvement in the result we also tried adding the data augmentation. For each sample, I added small noise to the image multiple times and measured how often the model’s predicted class stayed the same. The calculated correlation with the membership label and selected the top 7 features. Unfortunately, this did not show any improvement. The final score of AUC we achieved on the scoreboard is 0.644 and the TPR achieved on the scoreboard is 0.081. 
 
+https://github.com/abaadm1/TML25_A1_22/releases/tag/final-release
+
 
